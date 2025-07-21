@@ -97,3 +97,4 @@ QueueStats(submitted=6, pending=0, running=0, succeeded=5, failed=1, cancelled=0
 
 - Retry policy (21): validation, fixed and exponential delays, caps, jitter bounds and repeatability, `retry_on` and `give_up_on`, immutability.
 - Queue (52): sync and async functions, arguments, priority and FIFO order, the concurrency limit, delays and due ordering, waking a sleeping worker, retries and exhaustion, backoff timing, timeouts, cancelling pending, delayed and retrying tasks, `join`, `run_all`, `QueueFull`, graceful and hard shutdown, the context manager, stats, hooks, jitter with a supplied `rng`, and rejected arguments.
+
