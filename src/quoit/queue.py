@@ -282,3 +282,4 @@ class TaskQueue:
             hook(*args)
         except Exception:
             logger.exception("quoit hook raised")
+
