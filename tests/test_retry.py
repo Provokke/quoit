@@ -117,3 +117,4 @@ def test_policies_are_immutable():
 
     with pytest.raises(AttributeError):
         policy.max_attempts = 9
+
