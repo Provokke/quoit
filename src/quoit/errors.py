@@ -20,4 +20,3 @@ class TaskFailed(QuoitError):
         self.name = name
         self.attempts = attempts
         self.cause = cause
-

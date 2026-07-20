@@ -18,4 +18,3 @@ def aio(test):
 @pytest.fixture
 def aio_sleep():
     return asyncio.sleep
-

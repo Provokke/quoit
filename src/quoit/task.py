@@ -93,4 +93,3 @@ class TaskHandle:
     def _cancel(self) -> None:
         self.state = TaskState.CANCELLED
         self._finished.set()
-

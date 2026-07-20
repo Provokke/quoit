@@ -51,4 +51,3 @@ class RetryPolicy:
             source = rng or random
             delay *= 1 + self.jitter * (source.random() * 2 - 1)
         return max(0.0, min(delay, self.max_delay))
-
